@@ -1,4 +1,17 @@
-h3{
-    text-decoration: underline;
-    color: purple;
+
+header, nav{
+    background-image: url('../Images/VioletPattern.jpg');
+    color: #909B6F;
+}
+nav li:hover{
+    background-color: #38023B;
+}
+nav ul{
+    list-style: none;
+}
+nav, ul, li{
+    margin: 0;
+}
+nav{
+    grid: show;
 }
