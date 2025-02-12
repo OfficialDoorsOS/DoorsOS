@@ -1,0 +1,11 @@
+a#download{
+    padding: 10px;
+    border: solid #f58b00ff 2px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #a288e3ff;
+    color: #38023b;
+}
+section{
+    margin: 20px;
+}

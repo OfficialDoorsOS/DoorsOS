@@ -6,9 +6,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
+    background-color: #FBF4EF;
 }
-
 header {
     background-image: url('../Images/VioletPattern.jpg');
     padding: 10px 20px;
@@ -20,13 +19,15 @@ header {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
+    margin-left: 0;
 }
 
 .navbar a {
     text-decoration: none;
     font-size: 24px;
     font-weight: bold;
-    color: #909B6F; /* Green color for text */
+    color: #909B6F;
+    /* Green color for text */
 }
 
 .nav-links {
@@ -46,7 +47,8 @@ header {
 }
 
 .nav-links li a:hover {
-    background-color: #38023B; /* Color for hover */
+    background-color: #38023B;
+    /* Color for hover */
 }
 
 li a {
