@@ -1,4 +1,4 @@
-a#download{
+a#download {
     padding: 10px;
     border: solid #f58b00ff 2px;
     font-weight: bold;
@@ -6,6 +6,7 @@ a#download{
     background-color: #a288e3ff;
     color: #38023b;
 }
-section{
+
+section {
     margin: 20px;
 }

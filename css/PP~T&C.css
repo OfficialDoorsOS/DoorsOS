@@ -1,0 +1,41 @@
+section {
+    color: #38023b;
+    margin: 40px;
+}
+
+section ol>li {
+    font-weight: bold;
+    font-size: larger;
+}
+
+section ol p {
+    font-size: large;
+}
+
+section ul li {
+    list-style: inside;
+    padding: 5px;
+}
+
+p#title {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+p#Date {
+    text-align: center;
+    font-size: smaller;
+}
+
+section ul {
+    border: 2px #38023b solid;
+    margin: 10px;
+    background-color: lightgray;
+}
+
+p#last {
+    padding-top: 10px;
+    font-style: italic;
+    font-weight: bold;
+}

@@ -8,6 +8,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #FBF4EF;
 }
+
 header {
     background-image: url('../Images/VioletPattern.jpg');
     padding: 10px 20px;
@@ -53,4 +54,16 @@ header {
 
 li a {
     padding: 10px;
+}
+
+footer {
+    border-top: #38023b dashed 5px;
+    background-color: #a288e3ff;
+    padding: 15px;
+}
+
+footer ul {
+    padding: 10px;
+    text-indent: 10px;
+    list-style: none;
 }
