@@ -13,7 +13,7 @@ section ol p {
 }
 
 section ul li {
-    list-style: inside;
+    list-style: none;
     padding: 5px;
 }
 
