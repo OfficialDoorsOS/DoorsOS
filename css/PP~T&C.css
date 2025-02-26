@@ -17,6 +17,12 @@ section ul li {
     padding: 5px;
 }
 
+section ul {
+    border: 2px #38023b solid;
+    margin: 10px;
+    background-color: lightgray;
+}
+
 p#title {
     font-size: xx-large;
     font-weight: bold;
@@ -28,11 +34,6 @@ p#Date {
     font-size: smaller;
 }
 
-section ul {
-    border: 2px #38023b solid;
-    margin: 10px;
-    background-color: lightgray;
-}
 
 p#last {
     padding-top: 10px;
