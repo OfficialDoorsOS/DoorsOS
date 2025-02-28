@@ -6,6 +6,15 @@ a#download {
     background-color: #a288e3ff;
     color: #38023b;
 }
-#interface{
-    padding-top: 2em;
+
+div#interface img {
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+}
+
+#download {
+    margin-left: 45%;
+    width: 10%;
+    margin-right: 45%;
 }
