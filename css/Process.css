@@ -1,0 +1,10 @@
+ul > li{
+    font-weight: bold;
+}
+div#Intro{
+    align-items: center;
+    font-size: large;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+}

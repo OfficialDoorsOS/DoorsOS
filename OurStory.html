@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 
 <head>
-    <title>Our Story</title>
+    <title>The Process</title>
     <link rel="stylesheet" href="css/uni.css" />
+    <link rel="stylesheet" href="css/Process.css" />
 </head>
 
 <body>
@@ -12,22 +13,149 @@
                     height="100fr"></a>
             <ul class="nav-links">
                 <li><a href="Install.html"><b>Install</b></a></li>
-                <li><a href="OurStory.html"><b>Our Story</b></a></li>
+                <li><a href="OurStory.html"><b>The Process</b></a></li>
                 <li><a href="PrivatePolicy.html"><b>Private Policy</b></a></li>
                 <li><a href="TermsAndConditions.html"><b>Terms and Conditions</b></a></li>
             </ul>
         </nav>
     </header>
     <section>
-        <div>
-            <h1>Time Line:</h1>
-            
+        <div id="Intro">
+            <h1>How to build an Operating System:</h1>
+            <h5>**NOTE: This is not a tutorial, it is simply how we built our OS**</h5>
         </div>
-        <div>
-            <p></p>
+        <div id="prep">
+            <h3>Initial Prep: (About a week)</h3>
+            <ul>
+                <li>How does an OS work?</li>
+                <ol>
+                    <li>An OS(Operating system) is a series of small(but complicated) programs that allow programs to
+                        run on computers using a baseline compatibility expectation. </li>
+                </ol>
+                <li>What is Linux?</li>
+                <ol>
+                    <li>Linux is an Open-Source operating system that shares a clear goal of development through
+                        baseline file tree systems and kernel development, as well as its philosophy of open-source
+                        programs. It is an alternative competitor to MacOS and Windows, though in a much more
+                        customizable way.</li>
+                </ol>
+                <li>What is DoorsOS?</li>
+                <ol>
+                    <li>DoorsOS is our operating system, built using the GCC 14.2 compiler, which turns source code into
+                        programs that a computer can run in conjunction with Rust, C, C++, or more.
+                    </li>
+                </ol>
+                <li>How did we prep?</li>
+                <ol>
+                    <li>We prepped by installing proxmox on an old 2008-era server to use to compile LFS at first. With
+                        24 cores and 256GB of DDR2-800 ram it seemed perfect, although plenty dated. In addition, we set
+                        up several virtual machines in order to prep the project. Later, whenever we decided to compile
+                        on a personal computer, we also used a USB-hard drive and prepped the system by using the
+                        pre-installed partition in order to compile and build LFS very quickly due to the architectural
+                        improvements from several generations of improvements.
+                    </li>
+                </ol>
+            </ul>
         </div>
-        <div>
-
+        <div id="MLFS">
+            <h3>MLFS: (3-4 Weeks)</h3>
+            <ul>
+                <li>What is MLFS?</li>
+                <ol>
+                    <li>MLFS is the first process by which we build the operating system, relying on the first initial
+                        host system in order to build the first few programs using its own compiler, before building GCC
+                        in parts(2 passes) and Coreutils, the 2 most important programs for building and running the
+                        entire system. Coreutil provides the expected functionality for the Operating system, and GCC
+                        provides the base in which to compile programs easily as one of the most popular compilers for
+                        linux.
+                    </li>
+                </ol>
+                <li>What is Compiling?</li>
+                <ol>
+                    <li>Compiling is the process in which GCC or other compilers translate source code into binary
+                        programs for computers to execute or build. We will show you a demonstration now of building a
+                        program if you would turn your attention to the other monitor.</li>
+                </ol>
+                <li>What does it look like?</li>
+                <ol>
+                    <li>Much like the terminal window you see to your right, with minital applications and no GUI,
+                        purely command line. Reduced functionality than the system before you since we have compiled
+                        many applications that add many commands afterwards, but we do not have a screenshot of the
+                        system that we can show you other than that.</li>
+                </ol>
+                <li>Why did it take us restarting 2 times?</li>
+                <ol>
+                    <li>Lack of experience is to blame, as the first restart was due to an accidental deletion of GCC,
+                        and during the second run we figured out that transferring it to the host computer(which was
+                        another intel machine), it had been compiled with the incorrect settings due to the various
+                        differences in infrastructure within he 2(server processor chips from 2008 vs consumer processor
+                        chips from 2014, plus all the motherboard and ram differences), in which some of the OS was
+                        found to be completely dysfunctional. This combined with the uncertainty of wether this was the
+                        cause of KDE failing(which we will talk about later), lead to 2 restarts, each restart being
+                        much much faster than the previous attempt.</li>
+                </ol>
+            </ul>
+        </div>
+        <div id="GLFS">
+            <h3>GLFS: (1-2 Weeks)</h3>
+            <ul>
+                <li>What is GLFS?</li>
+                <ol>
+                    <li>GLFS is the first edition of “Icing on the OS”. GLFS is designed to allow systems to run popular
+                        gaming applications such as steam and wine. It does this through a mix of Graphic Drivers, audio
+                        files, and other important dependencies.</li>
+                </ol>
+                <li>What is Steam and Wine?</li>
+                <ol>
+                    <li>Steam is the most popular gaming application by far in which to play video games, buy them,
+                        trade items within them, or download mods for various approved games. It owns somewhere between
+                        60-80% of the gaming market for desktop PC’s and is seeing an introduction into consoles soon
+                        with the Xbox. </li>
+                    <li>WINE is the program that is used on Unix-based operating systems(such as MacOS and Linux) to run
+                        windows programs that are not kernel-level, and is acknowledged as one of the reasons that Linux
+                        is as popular as it is today(somewhere between 2-10% market share of desktop PC’s)</li>
+                </ol>
+                <li>What does it look like?</li>
+                <ol>
+                    <li>Very similar to MLFS, but the applications themselves we can bring up on the screen to your
+                        right if you would like. Steam is the only application that has a GUI, WINE does as well but
+                        only when running windows programs that also have GUIs. </li>
+                </ol>
+            </ul>
+        </div>
+        <div id="BLFS">
+            <h3>BLFS: (5-6 Weeks)</h3>
+            <ul>
+                <li>What is BLFS?</li>
+                <ol>
+                    <li>BLFS is the rest of the “Icing on the OS”. BLFS contains many different dependencies with
+                        varying use-cases. For example, we downloaded our GUI and some Quality of life dependencies
+                        through BLFS. Because of the size of BLFS we only downloaded what we needed, barely scratching
+                        the surface of the “optimization” and QOL dependencies that BLFS offers.</li>
+                </ol>
+                <li>What is our desktop interface?</li>
+                <ol>
+                    <li>XFCE is the Desktop Environment we decided to install. This allows us to make the system much
+                        more user-friendly by giving them a way to graphically, rather than textually, interact with the
+                        system. It also has the unique advantage of being as close to Windows 11/10 as possible, being
+                        easy to manage and navigate for a new user (though we do not recommend this for a new user)
+                    </li>
+                </ol>
+                <li>Why did we restart BLFS so many times?</li>
+                <ol>
+                    <li>We restarted BLFS due to an incompatibility of KDE to start, which we later found out was due to
+                        the fact that KDE(another desktop environment that was the originally had intended to use)
+                        couldn’t find it’s coreutils, a problem that we couldn’t fix due to a lack of time or looking at
+                        logs. As a result, we tried re-compiling KDE several times, and then attempted to compile
+                        Hyprland, to no success due to Hyprland refusing to run as a root account(we did not have a
+                        secondary user account at the time.). Eventually, we found success with XFCE as you see before
+                        you. </li>
+                </ol>
+                <li>What does it look like?</li>
+                <ol>
+                    <li>What it looks like is what you see before you, as we minimize all of our applications. </li>
+                </ol>
+            </ul>
         </div>
     </section>
     <footer>

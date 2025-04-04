@@ -14,7 +14,11 @@ div#interface img {
 }
 
 #download {
+    margin-bottom: 20px;
     margin-left: 45%;
     width: 10%;
     margin-right: 45%;
+}
+section img{
+    margin-bottom: 20px;
 }
