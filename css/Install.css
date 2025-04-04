@@ -1,0 +1,9 @@
+div ul li a{
+    padding: 0px;
+    color: #38023b;
+    font-weight: bold;
+    text-decoration: underline ;
+}
+div ul li a:hover{
+    background-color: #a288e3ff
+}
